@@ -1,8 +1,0 @@
-# px4 reliability_override.yaml
-/fmu/in/actuator_test:
-  reliability: best_effort
-  history: keep_all
-  
-/fmu/in/vehicle_command:
-  reliability: best_effort
-  history: keep_all
